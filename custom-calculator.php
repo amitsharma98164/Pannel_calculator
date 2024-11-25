@@ -503,3 +503,14 @@ function custom_calculator_shortcode() {
     return ob_get_clean();
 }
 add_shortcode('custom_calculator', 'custom_calculator_shortcode');
+
+// Code to create Options Page in ACF
+// if( function_exists('acf_add_options_page') ) {
+//     acf_add_options_page(array(
+//         'page_title'    => 'LCD Models',
+//         'menu_title'    => 'LCD Models',
+//         'menu_slug'     => 'lcd-models',
+//         'capability'    => 'edit_posts',
+//         'redirect'      => false
+//     ));
+// }
