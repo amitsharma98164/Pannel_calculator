@@ -319,7 +319,7 @@ function custom_calculator_shortcode() {
             max-width: 750px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #fff;
             border: 1px solid #ddd;
             border-radius: 10px;
             font-family: Arial, sans-serif;
@@ -374,6 +374,7 @@ function custom_calculator_shortcode() {
             display: block;
             margin-bottom: 5px;
             font-weight: normal;
+            color: #2C3345;
         }
 
         input[type="number"],
@@ -385,9 +386,7 @@ function custom_calculator_shortcode() {
             box-sizing: border-box;
         }
 
-        input[readonly] {
-            background-color: #f5f5f5;
-        }
+      
 
         .unit {
             display: block;
